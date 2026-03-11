@@ -1,0 +1,47 @@
+#form{
+
+    padding: 20px;
+    background-color: rgb(233, 228, 228);
+    max-width: 300px;
+    margin-inline: auto;
+    border-radius: 4px;
+}
+
+.container{
+
+    height: 100vh;
+    align-content: center;
+}
+
+#form .input-g{
+
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#form input{
+
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+ 
+}
+
+#form label{
+
+    color: rgb(71, 71, 71);
+    display: block;
+}
+
+#login-btn{
+
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 10px;
+    background-color: rgb(8, 8, 241);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
